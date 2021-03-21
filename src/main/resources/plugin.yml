@@ -3,4 +3,5 @@ version: 1.0
 main: com.popupmc.nospawncoal.NoSpawnCoal
 description: No Spawn for Coal
 author: junebug12851
-api-version: 1.15
+api-version: 1.16
+depend: [Multiverse-Core]

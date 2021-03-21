@@ -227,6 +227,8 @@ public class NoSpawnCoal extends JavaPlugin implements Listener {
             count = 0;
         }
 
+        getLogger().info("Immunity Count: " + count);
+
         // Update counter
         setMetadata(player, immunityMetaKey, count);
 
